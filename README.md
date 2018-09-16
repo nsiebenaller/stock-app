@@ -1,5 +1,12 @@
 # React Stock App
--Utilize IEX stock Api to display data Reference: https://iextrading.com/developer/docs
+Summary:
+* Utilize IEX stock Api to display data
+
+Details:
+* React
+* Redux
+* Webpack
+* Babel and css loaders
 
 
 ## Installation
@@ -20,9 +27,6 @@ $ npm start // or 'yarn start'
 Open the web browser to `http://localhost:8080/` and you will see simple stock app.
 
 
-## Help
-It has bare minimum to start development:
-* React
-* Redux
-* Webpack
-* Babel and css loaders
+## References
+
+IEX Dev Docs: Reference: https://iextrading.com/developer/docs
