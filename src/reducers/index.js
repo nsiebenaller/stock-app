@@ -1,6 +1,6 @@
 import { combineReducers } from 'redux';
-import tasks from './tasks'
+import stocks from './stocks'
 
 export default combineReducers({
-  tasks,
+  stocks
 })

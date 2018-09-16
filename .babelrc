@@ -1,8 +1,21 @@
 {
-  "presets": ["react", "env"],
+  "presets": [
+    ["env", {
+      "targets": {
+        "browsers": ["last 2 versions", "ie >= 8"]
+      },
+      "debug": true
+      }
+    ],
+    "react",
+    "stage-0",
+    "flow"
+  ],
   "plugins": [
+    "add-module-exports",
+    "transform-decorators-legacy",
+    "transform-runtime",
     "transform-object-rest-spread",
     "transform-es2015-spread",
-    "transform-decorators-legacy"
   ]
 }

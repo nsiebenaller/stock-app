@@ -1,0 +1,25 @@
+
+.stock-list-container {
+  display: flex;
+  flex-direction: row;
+  .sub-list-container {
+    width: 300px;
+    .sub-list-title {
+      font-weight: bolder;
+    }
+    .stock-container {
+      font-weight: bolder;
+      text-align: left;
+      margin: 10px;
+      padding: 10px;
+    }
+  }
+
+  .list-type-Gainers .stock-container {
+    background-color: #B9F6CA;
+  }
+
+  .list-type-Losers .stock-container {
+    background-color: #FF8A80;
+  }
+}

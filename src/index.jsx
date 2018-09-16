@@ -8,7 +8,7 @@ import promise from 'redux-promise';
 import styles from './styles/index.less';
 import reducers from './reducers/index';
 import {App} from './components/App.jsx';
-import initialData from '../data';
+import initialData from './initialData';
 
 const logger = createLogger();
 const store = createStore(
