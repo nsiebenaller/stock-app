@@ -1,18 +1,18 @@
 {
-    "name": "minimal-react",
+    "name": "stock-app",
     "version": "1.0.0",
-    "description": "Minimal React.js starter kit for experiments.",
+    "description": "Stock App for experiments.",
     "main": "./src/index.jsx",
     "scripts": {
         "start": "webpack-dev-server"
     },
-    "repository": "https://github.com/BatenkovT/Minimal-React.git",
+    "repository": "https://github.com/nsiebenaller/stock-app",
     "keywords": [
         "react",
         "webpack",
         "starter-kit"
     ],
-    "author": "BatenkovT",
+    "author": "nsiebenaller",
     "license": "ISC",
     "dependencies": {
         "ajv": "^6.5.2",
@@ -20,8 +20,8 @@
         "babel-plugin-add-module-exports": "^1.0.0",
         "babel-plugin-transform-runtime": "^6.23.0",
         "babel-preset-stage-0": "^6.24.1",
-        "less": "^2.7.3",
-        "less-loader": "^2.2.3",
+        "less": "^3.9.0",
+        "less-loader": "^4.1.0",
         "react": "^16.4.2",
         "react-dom": "^16.4.2",
         "react-redux": "^5.0.6",
@@ -29,7 +29,8 @@
         "redux-connect-decorator": "^0.2.0",
         "redux-logger": "^3.0.6",
         "redux-promise": "^0.6.0",
-        "redux-thunk": "^2.3.0"
+        "redux-thunk": "^2.3.0",
+        "webpack-cli": "^3.3.0"
     },
     "devDependencies": {
         "babel-core": "^6.25.0",
@@ -42,7 +43,7 @@
         "babel-preset-react": "^6.24.1",
         "css-loader": "^0.28.11",
         "style-loader": "^0.18.2",
-        "webpack": "^3.3.0",
-        "webpack-dev-server": "^2.5.1"
+        "webpack": "^4.29.6",
+        "webpack-dev-server": "^3.1.10"
     }
 }
